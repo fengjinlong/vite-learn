@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import logoSrc from '@assets/11.png';
 </script>
 
 <template>
@@ -9,7 +10,11 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
+      <img src="./assets/12.png" class="logo vue" alt="Vue logo" />
+      <img src="./assets/2.jpeg" class="logo vue" alt="Vue logo" />
+      <img src="./assets/22.webp" class="logo vue" alt="Vue logo" />
     </a>
+    <img :src="logoSrc" alt="" />
   </div>
   <HelloWorld msg="Vite + Vue" />
 </template>
